@@ -1,3 +1,4 @@
+class HelloWorld {
   public static int[,] fileToArrays(StreamReader locFile) {
       int[,] twoLists = new int[2, 1000];
       for (int i=0; i<1000; i++) {
@@ -45,3 +46,4 @@
     int[,] locations = fileToArrays(locationFile);
     Console.Write(findTotalSimScore(locations));
   }
+}
